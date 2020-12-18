@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_near"
+        android:icon="@drawable/ic_round_near_me_24"
+        android:title="Nearby"
+        app:cnb_iconColor="#2196F3"
+        />
+
+    <item
+        android:id="@+id/nav_new_chat"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="Chat"
+        app:cnb_iconColor="#F44336"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"
+        app:cnb_iconColor="#4CAF50"/>
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings"
+        app:cnb_iconColor="#FF9800"/>
+
+</menu>
